@@ -4,6 +4,8 @@ var styles = `
     }
 `
 
-var styleSheet = document.createElement("style")
+let styleSheet = document.createElement("style")
 styleSheet.innerText = styles
-document.head.appendChild(styleSheet)
+document.body.appendChild(styleSheet)
+
+console.log('custom css loaded')
