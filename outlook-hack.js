@@ -1,6 +1,6 @@
 var styles = `
     .S0ujU.bQRCo div:nth-child(2), .VPtFl, .pBKjV {
-        display: none;
+        display: none!important;
     }
 `
 
